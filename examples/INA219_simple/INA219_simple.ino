@@ -52,6 +52,13 @@ void checkConfig()
     case INA219_BUS_RES_10BIT:        Serial.println("10-bit"); break;
     case INA219_BUS_RES_11BIT:        Serial.println("11-bit"); break;
     case INA219_BUS_RES_12BIT:        Serial.println("12-bit"); break;
+    case INA219_BUS_RES_12BIT_2S:   Serial.println("12-bit / 2 samples"); break;
+    case INA219_BUS_RES_12BIT_4S:   Serial.println("12-bit / 4 samples"); break;
+    case INA219_BUS_RES_12BIT_8S:   Serial.println("12-bit / 8 samples"); break;
+    case INA219_BUS_RES_12BIT_16S:  Serial.println("12-bit / 16 samples"); break;
+    case INA219_BUS_RES_12BIT_32S:  Serial.println("12-bit / 32 samples"); break;
+    case INA219_BUS_RES_12BIT_64S:  Serial.println("12-bit / 64 samples"); break;
+    case INA219_BUS_RES_12BIT_128S: Serial.println("12-bit / 128 samples"); break;
     default: Serial.println("unknown");
   }
 
